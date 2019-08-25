@@ -1,0 +1,3 @@
+com\getaway\rockpaperscissors\entities\HandGame.class
+com\getaway\rockpaperscissors\app\RockPaperScissorsApp.class
+com\getaway\rockpaperscissors\service\RockPaperScissorsImpl.class
