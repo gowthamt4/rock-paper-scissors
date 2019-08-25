@@ -11,7 +11,7 @@ public class RockPaperScissorsApp {
 		RockPaperScissorsImpl impl = new RockPaperScissorsImpl();
 		Random random = new Random();
 		for(int game = 1; game <= MAX_GAMES; game++) {
-			int player2ShapeVal = random.nextInt(3); //As Player 1 constantly uses Rock
+			int player2ShapeVal = random.nextInt(3); //As Player 1 constantly uses Rock, only Player2 shape is considered
 			String player2Result = impl.findResult(player2ShapeVal);
 			System.out.println("Game:"+game+" [Player2 => "+player2Result+"; Player1 => "+impl.findPlayer1Result(player2Result)+"]");
 		}
